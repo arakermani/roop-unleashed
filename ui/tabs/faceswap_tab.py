@@ -64,7 +64,7 @@ def faceswap_tab():
                         target_faces = gr.Gallery(label="Target faces", allow_preview=False, preview=False, height=128, object_fit="scale-down", columns=8)
                         bt_remove_selected_target_face = gr.Button("❌ Remove selected", size='sm')
                         bt_add_local = gr.Button('Add local files from', size='sm')
-                        local_folder = gr.Textbox(show_label=False, placeholder="/content/", interactive=True)
+                        local_folder = gr.Textbox(show_label=False, placeholder="/content/drive/MyDrive/targets/main/", interactive=True)
                 with gr.Row(variant='panel'):
                     bt_srcfiles = gr.Files(label='Source File(s)', file_count="multiple", file_types=["image", ".fsz"], elem_id='filelist', height=233)
                     bt_destfiles = gr.Files(label='Target File(s)', file_count="multiple", file_types=["image", "video"], elem_id='filelist', height=233)
