@@ -2,8 +2,8 @@ from settings import Settings
 from typing import List
 
 source_path = None
-target_path = None
-output_path = None
+target_path = '/content/drive/MyDrive/targets/main/'
+output_path = '/content/drive/MyDrive/results/'
 target_folder_path = None
 
 frame_processors: List[str] = []
